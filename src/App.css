@@ -36,3 +36,42 @@
     transform: rotate(360deg);
   }
 }
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2f4f4f;
+  color: white;
+  width: 20rem;
+  height: 11rem;
+  border-radius: 5%;
+}
+
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #282c34;
+  color: white;
+  margin-bottom: 2rem;
+}
+
+#cardContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: "1 2 3 4";
+  row-gap: 1em;
+  justify-items: center;
+}
+#nav a{
+color: white;
+display: flex;
+justify-content: center;
+
+}
+
+#nav a:hover{
+  color: red;
+}
